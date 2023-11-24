@@ -30,5 +30,5 @@ void loop() {
   lcd.clear();
   delay(2000);
 }
-
+//commit vale
 //commit1
