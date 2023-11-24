@@ -23,10 +23,11 @@ void loop() {
     
     lcd.setCursor(0, 1);
     lcd.print(matriculas[i]);
-    
+    //Temporizador en lugar de botón 
     delay(2000);
   }
 
   lcd.clear();
+  //Temporizador en lugar de botón 
   delay(2000);
 }
