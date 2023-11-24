@@ -15,15 +15,19 @@ void setup() {
 
 void loop() {
   long matriculas[] = {202259358, 202244765, 202248466, 202245833,202255273,202255251};
-
+//Declaramos matriculas
   for (int i = 0; i < 6; i++) {
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Matrícula " + String(i + 1) + ":");
     
     lcd.setCursor(0, 1);
+
     lcd.print(matriculas[i]);
     //Temporizador en lugar de botón 
+    lcd.print(matriculas[i]);//imprime matricula
+    
+
     delay(2000);
   }
 
@@ -31,3 +35,5 @@ void loop() {
   //Temporizador en lugar de botón 
   delay(2000);
 }
+
+//commit1
