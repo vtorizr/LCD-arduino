@@ -22,7 +22,7 @@ void loop() {
     lcd.print("Matrícula " + String(i + 1) + ":");
     
     lcd.setCursor(0, 1);
-    lcd.print(matriculas[i]);
+    lcd.print(matriculas[i]);//imprime matricula
     
     delay(2000);
   }
