@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   long matriculas[] = {202259358, 202244765, 202248466, 202245833,202255273,202255251};
-
+//Declaramos matriculas
   for (int i = 0; i < 6; i++) {
     lcd.clear();
     lcd.setCursor(0, 0);
